@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/Vijayashree1/J_files.git'
+                git 'https://github.com/Arunce029/Java-repository.git'
             }
         }
         stage('Build') {
